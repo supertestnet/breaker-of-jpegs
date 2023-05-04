@@ -5,7 +5,7 @@ A tool for increasing the off-by-one bug in ordinal explorers
 
 On 2023-05-04 I introduced an off-by-one bug into ordinal theory in the following bitcoin transaction: https://mempool.space/tx/c1e0db6368a43f5589352ed44aa1ff9af33410e4a9fd9be0f6ac42d9e4117151
 
-The index.js tool will let you do the same thing. Here are the steps:
+The index.js tool in this repository will let you do the same thing. Here are the steps:
 
 1. Clone this github repo: `git clone https://github.com/supertestnet/breaker-of-jpegs.git`
 2. Enter the directory and make it a nodejs pacakge: `cd breaker-of-jpegs && npm init -y`
