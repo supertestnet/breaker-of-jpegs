@@ -51,16 +51,16 @@ var breakTheJpegs = async () => {
 	var init_txid = Tx.util.getTxid( Tx.fmt.toBytes( init_tx ) );
 	const init_sig = Signer.taproot.sign(seckey, init_tx, 0)
 	init_tx.vin[0].witness = [ init_sig ]
-  console.log( "" );
-  console.log( "" );
-  console.log( "" );
-  console.log( "" );
-  console.log( "---- Here are your transactions ----" );
-  console.log( "" );
-  console.log( "" );
-  console.log( "" );
+	console.log( "" );
+	console.log( "" );
+	console.log( "" );
+	console.log( "" );
+	console.log( "---- Here are your transactions ----" );
+	console.log( "" );
+	console.log( "" );
+	console.log( "" );
 	console.log( "commit tx:", Tx.encode(init_tx).hex );
-  console.log( "" );
+	console.log( "" );
 	const txdata = Tx.create({
 	  vin  : [{
 	    txid: init_txid,
