@@ -9,7 +9,7 @@ The index.js tool in this repository will let you do the same thing. Here are th
 
 1. Clone this github repo: `git clone https://github.com/supertestnet/breaker-of-jpegs.git`
 2. Enter the directory and make it a nodejs pacakge: `cd breaker-of-jpegs && npm init -y`
-3. Ensure you are running node version 19.0.0. (I install `nvm` and then ran `nvm install 19.0.0` to do this.)
+3. Ensure you are running node version 19.0.0. (I installed `nvm` and then ran `nvm install 19.0.0` to do this.)
 4. Install the dependencies: `npm i crypto @cmdcode/buff-utils @cmdcode/crypto-utils @cmdcode/tapscript fs/promises url prompt-sync`
 5. Modify your package.json and add this line to turn the package into a module: `"type": "module",` <-- add that line under `"main": "index.js",`
 6. Run the app with `node index.js`
