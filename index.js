@@ -14,7 +14,7 @@ function bytesToHex( bytes ) {
 }
 
 var breakTheJpegs = async () => {
-	const imgpath = new URL('./test.txt', import.meta.url).pathname
+	const imgpath = new URL('./soma.txt', import.meta.url).pathname
 	const imgdata = await fs.readFile(imgpath).then(e => new Uint8Array(e))
 	const marker   = Buff.encode('ord')
 	const mimetype = Buff.encode('text/plain;charset=utf-8')
