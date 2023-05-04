@@ -15,4 +15,4 @@ The index.js tool in this repository will let you do the same thing. Here are th
 6. Run the app with `node index.js`
 7. Send 10k sats to the bitcoin address it shows you
 8. Enter the txid and vout of your transaction when it prompts you for that info
-9. It will spit out two bitcoin transactions. Send both of them to a bitcoin miner to get them mined. Lots of mining pools have telegram channels or contact forms on their websites. Ask me for help if you can't fine a bitcoin miner on your own.
+9. It will spit out two bitcoin transactions. Send both of them to a bitcoin miner to get them mined. Note that you cannot broadcast the transactions via the mempool because they are non-standard, you have to send them directly to a miner and ask them politely to inject them into their block template. Lots of mining pools have telegram channels or contact forms on their websites. Ask me for help if you can't fine a bitcoin miner on your own.
