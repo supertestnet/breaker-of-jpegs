@@ -1,6 +1,8 @@
 # Breaker of jpegs
 A tool for increasing the off-by-one bug in ordinal explorers
 
+![](https://supertestnet.github.io/breaker-of-jpegs/i-am-become-jpeg-destroyer.png)
+
 # How to break inscription numbers
 
 On 2023-05-04 I introduced an off-by-one bug into ordinal explorers in the following bitcoin transaction: https://mempool.space/tx/c1e0db6368a43f5589352ed44aa1ff9af33410e4a9fd9be0f6ac42d9e4117151
