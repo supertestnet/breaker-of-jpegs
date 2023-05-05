@@ -72,7 +72,7 @@ var breakTheJpegs = async () => {
 	  }],
 	  vout : [{
 	    value: 0,
-	    scriptPubKey: Address.toScriptPubKey('bcrt1q6zpf4gefu4ckuud3pjch563nm7x27u4ruahz3y')
+	    scriptPubKey: ['OP_RETURN', '']
 	  }]
 	})
 
